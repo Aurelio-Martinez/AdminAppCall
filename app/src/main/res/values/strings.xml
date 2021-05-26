@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AdminAppCall</string>
+    <string name="sign_in_with_google">Entrar</string>
+    <string name="nombre">Nombre</string>
+    <string name="Numero">Numero</string>
+    <string name="foto">Foto</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="contactos">Contactos</string>
+    <string name="Ayuda">Ayuda visual</string>
+    <string name="calendar">Añadir Evento</string>
+    <string name="Usuarios">Usuarios</string>
+    <string name="email">Email</string>
+    <string name="edad">Edad</string>
+    <string name="genero">Genero</string>
+    <string name="Titulo">Titulo</string>
+    <string name="Inicio">Inicio</string>
+    <string name="Fin">Fin</string>
+    <string name="Dia">Dia</string>
+    <string name="FullDay">Todo el dia</string>
+    <string name="Descripcion">Descripcion</string>
+    <string name="Lugar">Localizacion</string>
+    <string name="Emails">Emails</string>
+    <string name="medicinas">Medicinas</string>
+    <string name="IntroducirMail">Introduzca Email</string>
+    <string name="Dosis">Dosis En mG</string>
+    <string name="Hora">Hora</string>
+</resources>

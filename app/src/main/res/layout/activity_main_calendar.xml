@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContacto">
+
+    <LinearLayout
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="348dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="32dp"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/Titulo"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="25dp"
+                android:autofillHints="@string/app_name"
+                android:background="@drawable/rounded_edit"
+                android:ems="80"
+                android:hint="@string/Titulo"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="20dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp" />
+
+            <EditText
+                android:id="@+id/Descripcion"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginEnd="25dp"
+                android:autofillHints="@string/app_name"
+                android:background="@drawable/rounded_edit"
+                android:ems="80"
+                android:hint="@string/Descripcion"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="20dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp" />
+
+            <EditText
+                android:id="@+id/Lugar"
+                android:layout_width="64dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="158dp"
+                android:layout_marginEnd="25dp"
+                android:autofillHints="@string/app_name"
+                android:background="@drawable/rounded_edit"
+                android:ems="80"
+                android:hint="@string/Lugar"
+                android:inputType="textAutoComplete"
+                android:paddingLeft="20dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp" />
+
+
+
+            <TextView
+                android:id="@+id/etChooseTime"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="286dp"
+                android:autofillHints="@string/app_name"
+                android:visibility="invisible"
+                android:background="@drawable/rounded_edit"
+                android:hint="@string/Inicio"
+                android:paddingLeft="20dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/etChooseTime2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="286dp"
+                android:visibility="invisible"
+                android:autofillHints="@string/app_name"
+                android:background="@drawable/rounded_edit"
+                android:hint="@string/Fin"
+                android:paddingLeft="20dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:id="@+id/btnDate"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="222dp"
+                android:autofillHints="@string/app_name"
+                android:background="@drawable/rounded_edit"
+                android:ems="10"
+                android:hint="@string/Dia"
+                android:paddingLeft="20dp"
+                android:paddingTop="8dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="8dp" />
+
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/switch1"
+                android:layout_width="156dp"
+                android:layout_height="26dp"
+                android:checked="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="228dp"
+                android:layout_marginEnd="25dp"
+
+                android:text="@string/FullDay"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/ConfirmarButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/secondaryDarkColor"
+            android:gravity="center"
+            android:text="@string/confirmar"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:cornerRadius="50dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
