@@ -1,5 +1,5 @@
 # AdminAppCall
-Aplicacion numero 2 para programacion de dispositivos moviles , Universidad  de Granda por Aurelio Martinez
+Aplicacion numero 2 para programacion de dispositivos moviles , Universidad  de Granada por Aurelio Martinez
 
 # Desarrollo 
 Desarrollado en Android Studio con Java. Implementa la libreria de FireBase.
